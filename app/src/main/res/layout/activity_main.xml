@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Drop-down for selecting the day of the week -->
+    <Spinner
+        android:id="@+id/day_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/days_of_week"
+        android:prompt="@string/select_day" />
+
+    <!-- Drop-down for selecting the activity -->
+    <Spinner
+        android:id="@+id/activity_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/activities"
+        android:prompt="@string/select_activity" />
+
+    <!-- TimePicker for choosing the time -->
+    <TimePicker
+        android:id="@+id/time_picker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:timePickerMode="spinner"
+        android:layout_gravity="center" />
+
+    <!-- Button to set the reminder -->
+    <Button
+        android:id="@+id/set_reminder_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/set_reminder"
+        android:layout_gravity="center" />
+
+</LinearLayout>

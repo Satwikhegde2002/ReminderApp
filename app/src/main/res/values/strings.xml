@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Reminder App</string>
+    <string name="select_day">Select Day</string>
+    <string name="select_activity">Select Activity</string>
+    <string name="set_reminder">Set Reminder</string>
+
+    <!-- Days of the week -->
+    <string-array name="days_of_week">
+        <item>Sunday</item>
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+    </string-array>
+
+    <!-- Activities list -->
+    <string-array name="activities">
+        <item>Wake up</item>
+        <item>Go to gym</item>
+        <item>Breakfast</item>
+        <item>Meetings</item>
+        <item>Lunch</item>
+        <item>Quick nap</item>
+        <item>Go to library</item>
+        <item>Dinner</item>
+        <item>Go to sleep</item>
+    </string-array>
+</resources>
